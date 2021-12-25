@@ -1,0 +1,8 @@
+{
+  "name": "cathub-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "git": "https://github.com/da-cathub/nodejs-api/"
+}
