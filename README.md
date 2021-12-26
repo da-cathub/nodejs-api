@@ -30,3 +30,9 @@ cathub.random(2).then(console.log)
 	}
 ]
 ```
+
+```javascript
+/**
+ * @usses JSDoc, WOWO POOOOOOOG mEOWEOMWONwbjfekndvbjfksdncbdkf
+ */
+```
