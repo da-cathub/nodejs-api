@@ -4,5 +4,21 @@
   "dependencies": {
     "request": "^2.88.2"
   },
-  "git": "https://github.com/da-cathub/nodejs-api/"
+  "git": "https://github.com/da-cathub/nodejs-api/",
+  "description": "a Cathub API wrapper for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/da-cathub/nodejs-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/da-cathub/nodejs-api/issues"
+  },
+  "homepage": "https://github.com/da-cathub/nodejs-api#readme"
 }
