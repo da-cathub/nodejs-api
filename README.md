@@ -38,7 +38,7 @@ cathub.random(2).then(console.log)
 >
 > Sample
 ```javascript
-const cathub = require(“cathub-api”)
+const cathub = require("cathub-api")
 
 cathub.random(2).then(console.log)
 ```
@@ -51,9 +51,9 @@ cathub.random(2).then(console.log)
 > 
 > Sample
 ```javascript
-const cathub = require(“cathub-api”)
+const cathub = require("cathub-api")
 
-cathub.id(“ycg2x0qa”).then(console.log)
+cathub.id("ycg2x0qa").then(console.log)
 ```
 
 ---
@@ -64,7 +64,7 @@ cathub.id(“ycg2x0qa”).then(console.log)
 > 
 > Sample
 ```javascript
-const cathub = require(“cathub-api”)
+const cathub = require("cathub-api")
 
-cathub.author(“da.charliecatto”).then(console.log)
+cathub.author("da.charliecatto").then(console.log)
 ```
