@@ -33,40 +33,34 @@ cathub.random(2).then(console.log)
 ## Way to use it!
 
 > ### `cathub.random`
-
+>
 > • howManyCats - Defaults to `1` else needs to be `Number` between `1-100`
-
+>
 > Sample
+```javascript
+const cathub = require(“cathub-api”)
 
-> ```javascript
-
-> const cathub = require(“cathub-api”)
-
-> cathub.random(2).then(console.log)
+cathub.random(2).then(console.log)
 ```
 
 > ### `cathub.get()`
-
+> 
 > • id - **NEEDS** to be a String with valid id of image on CatHub, else returns an `Object` with an error property
-
+> 
 > Sample
+```javascript
+const cathub = require(“cathub-api”)
 
-> ```javascript
-
-> const cathub = require(“cathub-api”)
-
-> cathub.id(“ycg2x0qa”).then(console.log)
+cathub.id(“ycg2x0qa”).then(console.log)
 ```
 
 > ### `cathub.author()`
-
+> 
 > • id  - **NEEDS** to be a String with valid id of an user on CatHub, else returns an `Object` with an error property
-
+> 
 > Sample
+```javascript
+const cathub = require(“cathub-api”)
 
-> ```javascript
-
-> const cathub = require(“cathub-api”)
-
-> cathub.author(“da.charliecatto”).then(console.log)
+cathub.author(“da.charliecatto”).then(console.log)
 ```
