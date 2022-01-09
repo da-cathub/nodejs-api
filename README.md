@@ -43,6 +43,8 @@ const cathub = require(“cathub-api”)
 cathub.random(2).then(console.log)
 ```
 
+---
+
 > ### `cathub.get()`
 > 
 > • id - **NEEDS** to be a String with valid id of image on CatHub, else returns an `Object` with an error property
@@ -53,6 +55,8 @@ const cathub = require(“cathub-api”)
 
 cathub.id(“ycg2x0qa”).then(console.log)
 ```
+
+---
 
 > ### `cathub.author()`
 > 
